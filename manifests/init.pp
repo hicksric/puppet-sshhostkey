@@ -1,7 +1,7 @@
 class sshhostkey {
   # Declare:
   @@sshkey { $hostname:
-    type => rsa,
+    type => dsa,
     key  => $sshdsakey,
   }
   # Collect:
